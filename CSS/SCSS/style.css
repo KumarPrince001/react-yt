@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: thistle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section {
+  height: 50%;
+  width: 50%;
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section h1 {
+  font-weight: bolder;
+}
+
+.blue {
+  padding: 20px 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.red {
+  padding: 20px 30px;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.green {
+  padding: 20px 30px;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */

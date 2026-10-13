@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    body {
+        background: linear-gradient(90deg, #b7d2df 0%, #f2e2d0 100%);
+        height: 100vh;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.main {
+    height: 100%;
+    width: 100%;
+      
+
+
+
+}
+
+.main h3 span{
+    color: white;
+}
+
+#nav {
+    padding: 60px;
+    height: 40px;
+    width: 100%;
+    /* background-color: thistle; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#items {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: #111;
+    /* padding-left: ; */
+}
+
+
+
+#btn{
+    height: 40px;
+    width: 200px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+.container{
+    height: 50%;
+    width: 100%;
+
+}
+
+.photo{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    
+}
+
+.photo img{
+    height: 180%;
+}
+
+
+
+.topleft{
+    display: flex;
+    height: 50%;
+    width: 300px;
+    position: absolute;
+    left: 29%;
+    top: 40%;
+}
+
+.topleft p{
+    width: 300px;
+    text-align: center;
+    font-weight: 550;
+    padding-top: 10px;
+    font-size: 15px;
+
+}
+
+
+.topleft img {
+    height: 40px;
+    gap: 0;
+}
+
+
+.topright{
+    display: flex;
+    height: 50%;
+    width: 300px;
+    position: absolute;
+    left: 54%;
+    top: 47%;
+}
+
+.topright p{
+    width: 300px;
+    text-align: center;
+    font-weight: 550;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+
+
+.topright img{
+    height: 40px;
+    /* padding-bottom: 10px; */
+    gap: 5px;
+}
+
+
+
+.bottomleft{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 30%;
+    position: absolute;
+    left: 25%;
+    top: 55% ;
+    gap: 10px;
+}
+
+
+.bottomleft h1{
+    font-size: 45px;
+    color: #fff;
+    z-index: -1;
+}
+
+
+
+
+
+.bottomright{
+    height: 250px;
+    width: 180px;
+   background-color: #f3f3f3;
+    backdrop-filter: blur(10px);          /* gives that soft glassy look */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+    bottom: 15%;
+    border-radius: 15px;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.bottomright img{
+    height: 50%;
+    width: 200px;
+    object-fit: cover;
+    justify-content: center;
+    padding-right: 40px;
+    
+}
+ 
+.bottomright p{
+    text-align: center;
+}
+
+
+
+
+footer{
+    height: 10%;
+    background-color:rgb(35, 34, 34);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+
+
+footer left{
+    width: 30%;
+    height: 50%;
+    /* object-fit: contain; */
+}
+
+footer img {
+  width: 40px;        /* or 100%, or whatever fits */
+  height: 40px;       /* keep aspect ratio */
+  object-fit: contain; /* makes sure image fits properly */
+  border-radius: 50%;
+}
+
+
+
+footer button{
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 25px;
+    width: 11%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

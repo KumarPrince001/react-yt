@@ -1,0 +1,53 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    border: 5px solid thistle;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    
+
+}
+
+.box:active{
+    scale: 0.9;
+    transition: all ease-in-out 1s;
+    
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+
+div{
+    height: 50px;
+    width: 50px;
+
+}
